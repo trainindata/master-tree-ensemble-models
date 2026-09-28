@@ -29,22 +29,18 @@ This repository contains the practical notebooks for the **[Master Tree Ensemble
    - How decision trees work
    - Tree induction: selecting features and split values
    - Pruning and stopping tree growth
-   - Predictions in classification and regression trees
    - Training classification and regression trees
 
 2. **Bagging and Random Forests** — [notebooks](02-random-forests)
    - Foundations of ensemble models
    - Bagging
    - Random forests and decorrelating the trees
-   - Predictions in classification and regression forests
    - Training classification and regression random forests
 
 3. **Boosting** — [notebooks](03-boosting)
    - AdaBoost: intuition, algorithm and exponential loss
-   - Implementing AdaBoost from scratch
    - Gradient boosting: steepest descent, residuals and the algorithm
-   - Implementing gradient boosting from scratch
-   - Training AdaBoost and gradient boosting machines for classification and regression
+   - Training GBMs for classification and regression
 
 4. **XGBoost** — [notebooks](04-xgboost)
    - Regularized loss function and split gain
@@ -72,11 +68,25 @@ This repository contains the practical notebooks for the **[Master Tree Ensemble
 
 ## Getting started
 
-Clone the repository and set up a dedicated Python environment (Python 3.11+).
+Clone the repository (Python 3.11+ required), then set up a dedicated environment with **either** of the options below.
 
-Take a look at [requirements.txt](requirements.txt) and install what you need for the sections you plan to work through.
+### Option 1: venv + pip
 
-Then start Jupyter and open the notebooks in numerical order.
+```bash
+python -m venv .venv
+source .venv/bin/activate        # Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+jupyter notebook
+```
+
+### Option 2: uv
+
+```bash
+uv sync
+uv run jupyter notebook
+```
+
+Open the notebooks in numerical order.
 
 ## Course
 
