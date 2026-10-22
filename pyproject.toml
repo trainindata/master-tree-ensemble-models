@@ -2,7 +2,7 @@
 name = "master-tree-ensemble-models"
 version = "0.1.0"
 description = "Practical notebooks for the Master Tree Ensemble Models course."
-requires-python = ">=3.11"
+requires-python = ">=3.12"
 dependencies = [
     "catboost>=1.2.10",
     "feature_engine>=1.9.4",

@@ -6,7 +6,7 @@
 
 Learn how decision trees and tree-based ensembles work under the hood, and how to train and tune them in practice. From single decision trees and random forests, to AdaBoost, gradient boosting, XGBoost, LightGBM and CatBoost.
 
-This repository contains the practical notebooks for the **[Master Tree Ensemble Models](https://www.trainindata.com/p/master-tree-ensemble-models)** course. The examples cover classification, regression and ranking, using scikit-learn, XGBoost, LightGBM, and CatBoost.
+This repository contains the practical notebooks for the **[Master Tree Ensemble Models](https://www.trainindata.com/p/master-tree-ensemble-models)** course. The examples cover classification and regression, using scikit-learn, XGBoost, LightGBM, and CatBoost.
 
 **Course launch:** September 2026
 
@@ -20,7 +20,7 @@ This repository contains the practical notebooks for the **[Master Tree Ensemble
 - Build ensembles with bagging and random forests, and understand why decorrelating trees works.
 - Understand boosting, from AdaBoost to gradient boosting, and implement both from scratch.
 - Learn what makes XGBoost, LightGBM and CatBoost fast and accurate: regularized losses, split-finding algorithms, histogram-based learning, GOSS, EFB, ordered boosting and more.
-- Tune the key hyperparameters of each library and train models for classification, regression and ranking.
+- Tune the key hyperparameters of each library and train models for classification and regression.
 - Explore advanced topics like DART and gradient boosting with imbalanced data.
 
 ## Course contents
@@ -47,28 +47,29 @@ This repository contains the practical notebooks for the **[Master Tree Ensemble
    - Split finding: exact greedy and approximate algorithms
    - Weighted quantile sketch and sparsity-aware split finding
    - Feature importance
-   - Hyperparameters, and the scikit-learn and native APIs
-   - XGBoost for classification, regression and ranking
+   - Hyperparameters
+   - Training XGBoost for classification and regression
 
 5. **LightGBM** — [notebooks](05-lightgbm)
    - Histogram-based split algorithm
-   - Leaf-wise tree growth
    - Gradient-based One-Side Sampling (GOSS)
    - Exclusive Feature Bundling (EFB)
+   - Leaf-wise tree growth
    - Hyperparameters
-   - LightGBM for classification, regression and ranking
+   - Training LightGBM for classification and regression
 
 6. **CatBoost** — [notebooks](06-catboost)
-   - Target statistics for categorical features
-   - Ordered target statistics and feature combinations
+   - Target statistics and conditional shift
+   - Ordered target statistics
+   - Oblivious trees
    - Prediction shift and ordered boosting
-   - Oblivious decision trees
+   - Feature combination
    - Hyperparameters
-   - CatBoost for classification, regression and ranking
+   - Training CatBoost for classification and regression
 
 ## Getting started
 
-Clone the repository (Python 3.11+ required), then set up a dedicated environment with **either** of the options below.
+Clone the repository (Python 3.12+ required), then set up a dedicated environment with **either** of the options below.
 
 ### Option 1: venv + pip
 
