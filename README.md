@@ -8,7 +8,7 @@ Learn how decision trees and tree-based ensembles work under the hood, and how t
 
 This repository contains the practical notebooks for the **[Master Tree Ensemble Models](https://www.trainindata.com/p/master-tree-ensemble-models)** course. The examples cover classification and regression, using scikit-learn, XGBoost, LightGBM, and CatBoost.
 
-**Course launch:** September 2026
+**Course launch:** November 2026
 
 **Status:** Actively maintained
 
