@@ -31,3 +31,9 @@ venv.bak/
 
 # PyCharm
 .idea/
+
+# saved models and checkpoints
+*.ubj
+*.cbm
+0*/*.txt
+checkpoints/
