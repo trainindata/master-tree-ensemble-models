@@ -67,6 +67,12 @@ This repository contains the practical notebooks for the **[Master Tree Ensemble
    - Hyperparameters
    - Training CatBoost for classification and regression
 
+7. **Other Topics** — [notebooks](07-other)
+   - DART: dropout for boosted trees
+   - The DART algorithm and its normalization
+   - DART hyperparameters
+   - Training DART in XGBoost and LightGBM
+
 ## Getting started
 
 Clone the repository (Python 3.12+ required), then set up a dedicated environment with **either** of the options below.
